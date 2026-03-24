@@ -7,6 +7,7 @@ IMC em adultos:
 - Entre 30 e 34,9: Obesidade grau I
 - Entre 35 e 39,9: Obesidade grau II
 - Acima de 40: Obesidade grau III */
+
 const prompt = require("prompt-sync")();
 
 let peso = parseFloat(prompt("Digite o seu peso (KG) ao lado: "));
