@@ -2,7 +2,7 @@
 
 const prompt = require("prompt-sync")();
 
-const matricula = String(prompt("Você possui nº de matrícula?: "));
+const alunoMatriculado = prompt("Você possui nº de matrícula?: ");
 if(alunoMatriculado.toLowerCase() === "sim"){
     console.log("Aluno matriculado.");
 }else{
