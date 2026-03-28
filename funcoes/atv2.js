@@ -14,3 +14,9 @@ function decretarJuros(valor, percentualjuros){
 const valorDeJuros = decretarJuros(500, 30);
 console.log(valorDeJuros);
 
+function main (){
+    console.log("Executamos as funcoes aqui dentro da main");
+    console.log("Assim, facilita na organização.");
+    decretarJuros(500,30);
+
+}
