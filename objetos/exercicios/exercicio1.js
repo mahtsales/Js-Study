@@ -33,5 +33,5 @@ const uno = new Carros('Fiat', 'Vermelho', 1/12); // => a cada 1L o carro percor
 const palio = new Carros('Fiat', 'Preto', 1/10); // => a cada 1L o carro percorre 10KM, ou seja, o gasto médio é de 1/10 L por KM
 
 //SAÍDA
-console.log(`O gasto total para percorrer ${distancia} KM é de R$ ${uno.calcularGasto(distancia, precoCombustivel).toFixed(2)}`);
-console.log(`O gasto total para percorrer ${distancia} KM é de R$ ${palio.calcularGasto(distancia, precoCombustivel).toFixed(2)}`);
+console.log(`O gasto médio por total para percorrer ${distancia} KM é de R$ ${uno.calcularGasto(distancia, precoCombustivel).toFixed(2)}`);
+console.log(`O gasto médio por total para percorrer ${distancia} KM é de R$ ${palio.calcularGasto(distancia, precoCombustivel).toFixed(2)}`);
